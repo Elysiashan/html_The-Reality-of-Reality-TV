@@ -1,0 +1,59 @@
+/* load fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
+ /* global styles  */
+
+
+
+
+ /* regular text */
+p {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+/* typography */
+
+/* heading text */
+h1, title {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+/* second heading */
+h2 {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+/* third heading */
+ h3 {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+p img {
+    max-width: 400px;
+    height: auto;
+}
+blockquote script {
+    max-width: 100px;
+    height: 200px;
+}
+
+.lifestyle {
+    background-color: #548ACC;
+}
+.gameshows{
+    background: #EA5B6F;
+}
+.datingshows{
+    background: #FF894F;
+}
+.home{
+    background: linear-gradient(176deg, #548ACC 3.97%, #EA5B6F 51.08%, #F68952 91.47%);
+    height: 100vh;
+}
