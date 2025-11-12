@@ -5,13 +5,95 @@
 
 
 
+.body {
+  border: 0;
+  margin: 0 15px;
+}
+
+
+p {
+  display: grid;
+  gap: auto;
+  margin-top: 4px;
+  grid-auto-rows: auto;
+  max-width: 400px;
+  font-family: "Alexandria", sans-serif;
+  text-align:left;
+  float: right;
+}
+img {
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  float: left;
+}
+h1 {
+  text-align: center;
+  display: block;
+  font-weight: 900;
+  font-family: "Alexandria", sans-serif;
+}
+
+h2{
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-family: "Alexandria", sans-serif;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  display: inline-flex;
+  flex: 5 600px;
+  align-items: center;
+}
+.left {
+  display: inline-flex;
+  flex: 2 1 100px;
+  flex-direction: column;
+}
+.container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+#flexend {
+align-content: flex-end;
+}
+.side,
+.center,
+.right {
+  height: 100px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+    .block-element {
+      width: 50%; /* or a specific pixel value */
+      margin: 0 auto;
+    }
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
  /* regular text */
-p {
-  font-family: "Alexandria", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px 100px;
+  column-gap: 10px;
+  row-gap: 100px;
 }
+
 /* typography */
 
 /* heading text */
@@ -19,7 +101,9 @@ h1, title {
   font-family: "Alexandria", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
+
 }
+  
 
 /* second heading */
 h2 {
@@ -33,15 +117,18 @@ h2 {
   font-family: "Alexandria", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  float:left;
+  text-align:left;
 }
 
-p img {
+ img {
     max-width: 400px;
     height: auto;
 }
+
 blockquote script {
-    max-width: 100px;
-    height: 200px;
+    width: 20vw;
+    height: auto;
 }
 
 .lifestyle {
@@ -57,3 +144,21 @@ blockquote script {
     background: linear-gradient(176deg, #548ACC 3.97%, #EA5B6F 51.08%, #F68952 91.47%);
     height: 100vh;
 }
+
+/* media queries */
+@media (min-width: 700px) {
+
+  H1 {
+    font-size: 96px;
+  }
+  H2 {
+    font-size: 64px;
+  }
+  H3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
