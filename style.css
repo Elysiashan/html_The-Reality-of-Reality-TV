@@ -12,14 +12,12 @@
 
 
 p {
-  display: grid;
-  gap: auto;
-  margin-top: 4px;
+  margin-top: 2px;
   grid-auto-rows: auto;
   max-width: 400px;
   font-family: "Alexandria", sans-serif;
   text-align:left;
-  float: right;
+  float: center;
 }
 img {
   display: block;
@@ -33,7 +31,12 @@ h1 {
   font-weight: 900;
   font-family: "Alexandria", sans-serif;
 }
-
+blockquote, script{
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  float: left;
+}
 h2{
   text-align: center;
   display: block;
@@ -126,8 +129,8 @@ h2 {
     height: auto;
 }
 
-blockquote script {
-    width: 20vw;
+blockquote, script {
+   max-width: 300px;
     height: auto;
 }
 
