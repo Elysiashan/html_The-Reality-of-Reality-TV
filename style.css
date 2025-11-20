@@ -12,12 +12,11 @@
 
 
 p {
-  margin-top: 2px;
   grid-auto-rows: auto;
   max-width: 400px;
   font-family: "Alexandria", sans-serif;
-  text-align:left;
-  float: center;
+  text-align:right;
+  float: right;
 }
 img {
   display: block;
