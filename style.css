@@ -97,7 +97,7 @@ align-content: flex-end;
 /* typography */
 
 /* heading text */
-h1, title {
+h1 {
   font-family: "Alexandria", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -126,7 +126,7 @@ h2 {
     height: auto;
 }
 
-blockquote, script {
+blockquote {
    max-width: 300px;
     height: auto;
 }
