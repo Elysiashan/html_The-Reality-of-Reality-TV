@@ -4,6 +4,46 @@
  /* global styles  */
 
 
+.card{
+display: flex;
+width: 1512px;
+height: 3089px;
+padding: 33px 55px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.housewife{
+display: flex;
+width: 1367px;
+height: 349px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+gap: 51.684px;
+
+}
+
+.housewife2{
+display: flex;
+width: 1367px;
+height: 349px;
+flex-direction: column;
+align-items: center;
+gap: 51.684px;
+flex-shrink: 0;
+}
+
+.housewife3{
+display: flex;
+width: 1367px;
+height: 349px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
 
 body {
   border: 0;
@@ -21,7 +61,7 @@ p {
 img {
   display: block;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
   float: left;
 }
 h1 {
@@ -33,7 +73,7 @@ h1 {
 blockquote, script{
   display: block;
   margin-right: auto;
-  width: 40%;
+  width: 20%;
   float: left;
 }
 h2{
@@ -49,11 +89,7 @@ h2{
   justify-content: center;
   align-items: center;
 }
-.right {
-  display: inline-flex;
-  flex: 5 600px;
-  align-items: center;
-}
+
 .left {
   display: inline-flex;
   flex: 2 1 100px;
