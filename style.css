@@ -26,41 +26,61 @@ gap: 51.684px;
 
 .housewife2{
 display: flex;
-width: 1367px;
+width:1367px;
 justify-content:center;
-align-items: center;
+align-items: flex-start;
 gap: 51.684px;
 flex-shrink: 0;
 }
-
-.housewife3{
+.propertybrother{
 display: flex;
+width: 1482px;
+height: 378.439px;
+justify-content: center;
+align-items: flex-start;
+gap: 56.032px;
+flex-shrink: 0;
+}
+.propertybrother2{
+display: flex;
+height: 349px;
+padding-bottom: 6.088px;
+justify-content: center;
+align-items: center;
+gap: 56.032px;
+flex-shrink: 0;
+align-self: stretch;
+}
+.propertybrother3{
+  display: flex;
 width: 1367px;
 height: 349px;
-flex-direction: column;
+justify-content: center;
 align-items: center;
-gap: 10px;
 flex-shrink: 0;
 }
 
-body {
-  border: 0;
-  margin: 0 15px;
+.fliporflop{
+position: absolute;
+left: 42px;
+bottom: 0;
+width: 1367px;
+height: 818px;
 }
 
 
+
+
 p {
-  grid-auto-rows: auto;
+  grid-auto-rows: left;
   max-width: 400px;
   font-family: "Alexandria", sans-serif;
-  text-align:right;
   float: right;
 }
 img {
   display: block;
   margin-right: auto;
   width: 30%;
-  float: left;
 }
 h1 {
   text-align: center;
@@ -70,7 +90,7 @@ h1 {
 }
 blockquote, script{
   display: block;
-  margin-right: auto;
+  margin-left: auto;
   width: 20%;
   float: left;
 }
@@ -80,6 +100,14 @@ h2{
   font-weight: 700;
   font-family: "Alexandria", sans-serif;
 
+}
+h3{
+display: flex;
+width: 421px;
+height: 74px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
 }
 
 .container {
@@ -151,7 +179,6 @@ h2 {
   font-family: "Alexandria", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  float:left;
   text-align:left;
 }
 
@@ -191,7 +218,7 @@ blockquote {
   h2 {
     font-size: 64px;
   }
-  H3{
+  h3{
     font-size: 24px;
   }
   p{
